@@ -81,10 +81,10 @@
                         <configuration>
                             <target>
                                 <echo message="unzip archive" />
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/leaflet" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/leaflet-plugins" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/leaflet" />
+                                    <fileset dir="${project.build.directory}/leaflet-plugins/leaflet-plugins-${upstream.version}" />
                                 </move>
                             </target>
                         </configuration>
