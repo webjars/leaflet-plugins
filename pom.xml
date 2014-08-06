@@ -104,6 +104,8 @@
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/leaflet-plugins/leaflet-plugins-${upstream.version}" />
                                 </move>
+                                <delete dir="${destDir}/build" />
+                                <delete dir="${destDir}/examples" />
                             </target>
                         </configuration>
                     </execution>
