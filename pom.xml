@@ -16,25 +16,43 @@
     <description>WebJar for Leaflet Plugins</description>
     <url>http://webjars.org</url>
 
-<!--
     <developers>
         <developer>
             <id>jamesward</id>
             <name>James Ward</name>
             <email>james@jamesward.com</email>
         </developer>
+        <developer>
+            <id>hakan42</id>
+            <name>Hakan Tandogan</name>
+            <email>hakan@gurkensalat.com</email>
+            <roles>
+                <role>packaging</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>shramov</id>
+            <name>Pavel Shramov</name>
+            <roles>
+                <role>upstream developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>brunob</id>
+            <name>Bruno Bergot</name>
+            <roles>
+                <role>upstream developer</role>
+            </roles>
+        </developer>
     </developers>
--->
 
-<!--
     <licenses>
         <license>
-            <name>Copyright (c) 2010-2013, Vladimir Agafonkin Copyright (c) 2010-2011, CloudMade</name>
-            <url>https://github.com/Leaflet/Leaflet/blob/master/LICENSE</url>
+            <name>Copyright (c) 2011-2014, Pavel Shramov, Bruno Bergot</name>
+            <url>https://github.com/shramov/leaflet-plugins/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
--->
 
     <scm>
         <url>http://github.com/webjars/leaflet-plugins</url>
